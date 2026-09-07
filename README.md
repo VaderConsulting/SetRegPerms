@@ -1,6 +1,6 @@
 # SetRegPerms
 
-VB6 working copy of `SetRegPerms` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: SetRegPerms. Output: `SetRegPerms.exe`. `VersionCompanyName`: Empired Limited.
+VB6 SetRegPerms (`SetRegPerms.exe`) UI that grants a username an ACE on a registry path via the SetACL ActiveX control (`SetACL.ocx`; `runme.bat` registers the OCX). Open `SetRegPerms.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -8,7 +8,7 @@ VB6 working copy of `SetRegPerms` from Dave Robinson's OneDrive Historical Dev `
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `SetRegPerms` (`SetRegPerms.vbp`) | VB6 | WinForms exe | SetRegPerms |
+| `SetRegPerms` (`SetRegPerms.vbp`) | VB6 | WinForms exe | Set registry path permissions for a user via SetACL |
 
 ## How to open
 
@@ -19,7 +19,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 
 - Visual Basic 6.0 IDE
 - Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
-  - `SetACL.ocx`
+  - `SetACL.ocx` (see `runme.bat`)
 
 ## Attribution and provenance
 
